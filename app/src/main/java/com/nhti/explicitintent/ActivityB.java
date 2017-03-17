@@ -26,5 +26,18 @@ public class ActivityB extends AppCompatActivity {
         textView.setText(qString);
     }
 
+    public void onClick(View view) {
+        finish();
+    }
 
+    @Override
+    public void finish() {
+        Intent data = new Intent();
+        EditText editText1 = (EditText) findViewById(R.id.editText1);
+        String returnString = editText1.getText().toString();
+        data.putExtra("returnData", returnString);
+
+        setResult(RESULT_OK, data);
+        super.finish();
+    }
 }
