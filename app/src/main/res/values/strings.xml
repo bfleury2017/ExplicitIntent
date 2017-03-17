@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ExplicitIntent</string>
+    <string name="ask_question">Ask question</string>
+    <string name="textview">TextView</string>
+    <string name="button">Button</string>
+    <string name="name">Name</string>
+    <string name="answer_string_ask_question">Answer @string/ask_question</string>
+    <string name="answer_question">Answer question</string>
+</resources>
